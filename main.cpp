@@ -15,13 +15,20 @@ void testPairToNumber(enum MajorColor major, enum MinorColor minor, int expected
     assert(pairNum == expected);
 }
 
-int main() {
+int main(int argc, char* argv[]) {
+    if (argc > 1 && strcmp(argv[1], "--manual") == 0) {
+        // This path is for wiring personnel
+        printColorCodeManual();
+        return 0;
+    }
+
+    // Default path: developer/test mode
     testNumberToPair(4, WHITE, BROWN);
     testNumberToPair(5, WHITE, SLATE);
 
     testPairToNumber(BLACK, ORANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
 
-    printColorCodeManual();
     return 0;
 }
+
