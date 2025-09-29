@@ -24,7 +24,8 @@ int main()
     testPairToNumber(BLACK, ORANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
 
-    char* manual = getColorCodeManual();
+   // Test manual generation
+    testGetColorCodeManual();
 
     return 0;
 }
