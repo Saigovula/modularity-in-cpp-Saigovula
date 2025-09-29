@@ -23,5 +23,6 @@ int main() {
     testPairToNumber(VIOLET, SLATE, 25);
 
     printColorCodeManual();
+    
     return 0;
 }
