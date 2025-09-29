@@ -1,8 +1,7 @@
 #ifndef COLOR_PAIR_H
 #define COLOR_PAIR_H
 
-
-#include "color_defs.h"
+#include "color_definitions.h"
 
 typedef struct {
     enum MajorColor major;
