@@ -2,7 +2,8 @@
 #include "color_utils.h"
 #include <stdio.h>
 
-void printColorCodeManual() {
+void printColorCodeManual() 
+{
     printf("----- Telecom Color Code Manual -----\n");
     int total = numberOfMajorColors * numberOfMinorColors;
     for (int i = 1; i <= total; i++) {
