@@ -7,4 +7,8 @@ ColorPair getColorFromPairNumber(int pairNumber);
 
 int getPairNumberFromColor(enum MajorColor major, enum MinorColor minor);
 
+// Function declarations
+void testNumberToPair(int pairNumber, enum MajorColor expMajor, enum MinorColor expMinor);
+void testPairToNumber(enum MajorColor major, enum MinorColor minor, int expected);
+
 #endif
