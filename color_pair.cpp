@@ -14,7 +14,6 @@ ColorPair makeColorPair(enum MajorColor major, enum MinorColor minor) {
     ColorPair pair = {major, minor};
     return pair;
 }
-
 enum MajorColor getMajor(ColorPair* pair) { return pair->major; }
 enum MinorColor getMinor(ColorPair* pair) { return pair->minor; }
 
