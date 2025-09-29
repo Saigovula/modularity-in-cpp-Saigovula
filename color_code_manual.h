@@ -3,4 +3,7 @@
 
 char* getColorCodeManual();
 
+// Function declaration for testing getColorCodeManual
+void testGetColorCodeManual();
+
 #endif
