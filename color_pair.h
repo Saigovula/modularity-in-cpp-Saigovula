@@ -1,6 +1,7 @@
 #ifndef COLOR_PAIR_H
 #define COLOR_PAIR_H
 
+
 #include "color_defs.h"
 
 typedef struct {
